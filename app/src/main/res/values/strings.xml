@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E_COM</string>
+
+    <string name="cutprice"><strike>Rp 45.99</strike></string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+</resources>

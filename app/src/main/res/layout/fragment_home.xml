@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="19.7dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageVi1"
+            android:src="@drawable/autumn"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="347.7dp"/>
+
+                    <customfonts.MyTextView_Roboto_Bold
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Autumn ‘18"
+                        android:textColor="#212224"
+                        android:layout_margin="19.6dp"
+                        android:textSize="17.3dp"
+                        android:layout_gravity="bottom"/>
+
+                </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageVie1"
+                android:src="@drawable/bitmap1"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="8dp"
+                android:layout_width="151.2dp"
+                android:layout_height="193.50dp"
+                android:layout_marginRight="12dp"/>
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imageView1"
+                android:src="@drawable/bitmap2"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="8dp"
+                android:layout_width="151.2dp"
+                android:layout_marginLeft="6dp"
+                android:layout_height="193.50dp"/>
+
+
+
+        </LinearLayout>
+
+            </LinearLayout>-->
+            <customfonts.MyTextView_Montserrat_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:text="HALAMAN UTAMA"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_1"/>
+
+    </LinearLayout>
+</RelativeLayout>
+

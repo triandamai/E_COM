@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context="e.wolfsoft1.Kucing.Login">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_icon_1"/>
+
+    <customfonts.EditText_Roboto_Light
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/gray_categories_rect"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/user"
+        android:hint="Username"
+        android:inputType="text"
+        />
+    <customfonts.EditText_Roboto_Light
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/pass"
+
+        android:padding="5dp"
+        android:background="@drawable/gray_categories_rect"
+        android:inputType="textWebPassword"/>
+    <customfonts.Button_Roboto_Medium
+        android:id="@+id/btn_login"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/gradient_rect"
+        android:text="Login"/>
+    <customfonts.MyTextView_Roboto_Light
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum Punya Akun ?"/>
+</LinearLayout>

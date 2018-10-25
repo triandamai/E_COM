@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentInsetStart="0dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="19.2dp">
+
+        <ImageView
+            android:id="@+id/toogle_nav"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/menu"/>
+
+        <!--<Spinner
+            android:id="@+id/sp_car_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_spinner"
+            android:spinnerMode="dropdown"/>-->
+        <customfonts.MyTextView_Roboto_Bold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#212224"
+            android:textSize="15.4dp"
+            android:layout_marginLeft="28.7dp"
+            android:text="DASHBOARD"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/fav"
+            android:visibility="invisible"
+            android:layout_marginRight="28.8dp"/>
+
+        <ImageView
+            android:id="@+id/iv_cari"
+            android:layout_width="40dp"
+            android:padding="10dp"
+            android:layout_height="40dp"
+            android:src="@drawable/search"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

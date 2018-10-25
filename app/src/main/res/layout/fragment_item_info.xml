@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+<customfonts.MyTextView_Roboto_Bold
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="10.6dp"
+    android:textColor="#212224"
+    android:text="PERAWATAN"
+    android:layout_margin="19.2dp"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10.6dp"
+        android:textColor="#999999"
+        android:layout_marginLeft="19.2dp"
+        android:lineSpacingExtra="6dp"
+        android:letterSpacing="0.0625"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut\npretium pretium tempor. Ut eget imperdiet neque. In volutpat\nante semper diam molestie, et aliquam erat laoreet. Sed sit amet\narcu aliquet, molestie justo at, auctor nunc."/>
+
+    <customfonts.MyTextView_Roboto_Bold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10.6dp"
+        android:textColor="#212224"
+        android:text="MAKANAN"
+        android:layout_margin="19.2dp"/>
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10.6dp"
+        android:textColor="#999999"
+        android:layout_marginLeft="19.2dp"
+        android:lineSpacingExtra="5dp"
+        android:letterSpacing="0.0625"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut\npretium pretium tempor. Ut eget imperdiet neque. In volutpat\nante semper diam molestie, et aliquam erat laoreet. Sed sit amet\narcu aliquet, molestie justo at, auctor nunc."/>
+
+</LinearLayout>

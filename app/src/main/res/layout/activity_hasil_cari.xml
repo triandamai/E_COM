@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="e.wolfsoft1.Kucing.HasilCari"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_hasil_cari"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginRight="19.2dp">
+
+
+            <Spinner
+                android:id="@+id/sp_car_name2"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:background="@drawable/custom_spinner"
+                android:spinnerMode="dropdown"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sp_car_name3"
+                android:layout_width="65dp"
+                android:layout_height="30dp"
+                android:background="@drawable/custom_spinner"
+                android:spinnerMode="dropdown"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:orientation="vertical"
+            android:background="@drawable/shadow">
+
+        </LinearLayout>
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="13.40dp"
+            android:layout_margin="19.26dp"
+            android:text="133 Kucing “Women” Ditemukan"
+            android:textColor="#999999"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclerview"
+                    android:layout_marginLeft="9.1dp"
+                    android:layout_marginRight="9.1dp">
+
+
+
+                </android.support.v7.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_1"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
